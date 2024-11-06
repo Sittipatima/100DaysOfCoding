@@ -13,7 +13,7 @@ public class Day66{
 		System.out.println("Pola Persegi Panjang");
 	}
 	for (int d = 1; d <= lebar; d++){
-		for (int i = 1; i <= tinggi; i++){
+		for (int i = 1; i <= panjang; i++){
 			System.out.print("o  ");
 		}
 		System.out.println("o ");
