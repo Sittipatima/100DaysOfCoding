@@ -40,6 +40,21 @@ public class evaluasi {
 		      }
 		      angkalagi++;
 		}while(angkalagi % 2 == 0 && angkalagi % 3 == 0);
+
+
+//soal 4
+public class Main {
+    public static void calonprogrammer(String nama) {
+        System.out.println("Halo,"+nama+"!");
+    }
+   public static void main(String[] args) {
+        calonprogrammer("Andri");
+        calonprogrammer("Adam");
+        calonprogrammer("Patima");
+        calonprogrammer("Rusna");
+    }
+}
+
 		
 //Soal 5
 public class Main {
