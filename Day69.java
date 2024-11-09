@@ -17,7 +17,7 @@ public class evaluasi {
    	//soal 2
 		int aa = 1;
 		for (int a = 1; a a<= 4 ; a++){
-			for (int b = 1; b >= a ; b++){
+			for (int b = 1; b <= a ; b++){
 				System.out.print(aa);
 				aa++;
 			}
@@ -41,3 +41,17 @@ public class evaluasi {
 		      angkalagi++;
 		}while(angkalagi % 2 == 0 && angkalagi % 3 == 0);
 		
+//Soal 5
+public class Main {
+	public int perkalian (int a, int b){
+		a = 2;
+		b = 5;
+		int hasil = a*b;
+		return hasil;
+	}
+	public static void main(String[] args) {
+		Main obj = new Main();
+		int hasil = obj.perkalian(2,5);
+		System.out.println("hasil perkalian = "+ hasil);
+	}
+}
