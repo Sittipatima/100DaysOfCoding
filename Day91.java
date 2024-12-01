@@ -5,7 +5,7 @@ public class day91{
 		while (true){
 			int angka = in.nextInt();
 			if (angka >= 0){
-				System.out.println("Bilangan Bulat");
+				System.out.println("Bilangan Positif");
 			}else {
 				System.out.println("You And I End");
 				break;
