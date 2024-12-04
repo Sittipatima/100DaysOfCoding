@@ -13,6 +13,6 @@ public class day94 {
             }
             System.out.println();
         }
-        scanner.close();
+        in.close();
     }
 }
