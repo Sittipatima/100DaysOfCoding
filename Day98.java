@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class day98 {
 	public static void main(String[] args) { 
 	   Scanner in = new Scanner(System.in);
-	System.out.println("Nilai x : ");
+	System.out.print("Nilai x : ");
 	int x = in.nextInt();
-	System.out.println("Nilai y : ");
+	System.out.print("Nilai y : ");
 	int y = in.nextInt();
 	int total = 0;
 	for ( int a = x; a <= y; a++){
