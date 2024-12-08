@@ -6,10 +6,13 @@ public class day98 {
 	for ( int a = x; a <= y; a++){
 		if (a % 2 == 0){
 			total+=a;
-			System.out.print(a+" ");
-			}
-			}
-			System.out.println("");
-			System.out.println("Total Penjumlahan bilangan genap dari x ke y =  "+ total);	
+			if ( a == y ){
+			System.out.print(a+" = ");
+		}else {
+			System.out.print(a + " + ");
+		}
+	    }
+    	}
+			System.out.print( total);	
 	}
 }
