@@ -1,6 +1,6 @@
 import java.time.LocalTime;
 import java.util.Scanner;
-public class Main {
+public class day100 {
 	public static void main(String[] args) {
 	 Scanner in = new Scanner (System.in);
 	 System.out.print("Masukkan Nama Anda : ");
